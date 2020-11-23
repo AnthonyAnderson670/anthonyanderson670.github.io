@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: url("images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container, .row {
+	padding: 10px;
+	text-align: center;
+}
+
+#intro {
+	min-height: 100vh;
+	padding: 20% 0;
+}
+
+#intro h1, #intro h2, #intro p {
+	background-color: black;
+	opacity: 0.5;
+	color:#bababa;
+	padding: 5px;
+}
+
+#contact, .fab {
+	background:#373737;
+	color: white;
+	padding: 10px;
+}
+
+
+#main {
+	background: #BABABA;
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	opacity: 0.5;
+}
